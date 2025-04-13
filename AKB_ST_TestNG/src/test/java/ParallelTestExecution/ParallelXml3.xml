@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite One" parallel="methods" thread-count="3">
+	<!-- All methods with @Test annotation will execute parallel-->
+
+	<test name="Test One">
+		<classes>
+			<class name="ParallelTestExecution.ParallelEx4"/>
+		</classes>
+	</test>
+	
+</suite>

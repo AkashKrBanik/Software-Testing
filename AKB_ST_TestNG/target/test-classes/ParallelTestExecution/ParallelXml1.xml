@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite Four" parallel="tests" thread-count="3">
+	<test name="Test Four">
+		<classes>
+			<class name="ParallelTestExecution.ParallelEx1"/>
+		</classes>
+	</test>
+	
+	<test name="Test Five">
+		<classes>
+			<class name="ParallelTestExecution.ParallelEx2"/>
+		</classes>
+	</test>
+	
+	<test name="Test Six">
+		<classes>
+			<class name="ParallelTestExecution.ParallelEx3"/>
+		</classes>
+	</test>
+</suite>
